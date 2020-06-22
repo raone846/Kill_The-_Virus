@@ -133,7 +133,7 @@ function update(){
     }
     //overlap
     if(isOverlap(player,gem)){
-        console.log("you win");
+        console.log("You won!!!");
         alert("You won!!!");
         game_over = true;
         return;
